@@ -1,6 +1,5 @@
-const hamburgerButton = document.querySelector('.block.lg\\:hidden button');
-const navbar = document.querySelector('#navbar');
-
-hamburgerButton.addEventListener('click', () => {
-  navbar.classList.toggle('hidden');
-});
+document
+.getElementById("mobile-menu-toggle")
+.addEventListener("click", function() {
+document.getElementById("mobile-menu").classList.toggle("show");
+} );
