@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-}
-
 .contact-container {
   background-color: #fff;
   padding: 40px;
@@ -47,7 +37,8 @@ label {
   color: #333;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -92,7 +83,6 @@ footer {
   width: 24px;
   height: 24px;
 }
-
 
 @media (max-width: 728px) {
   #mobile-menu {
