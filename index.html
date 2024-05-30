@@ -373,5 +373,20 @@
       .addEventListener("click", function () {
         document.getElementById("mobile-menu").classList.toggle("show");
       });
+
+      document.getElementById('contact-me-button').addEventListener('click', function () {
+        document.getElementById('contact-modal').classList.remove('hidden');
+      });
+
+      document.getElementById('closeModalButton').addEventListener('click', function () {
+        document.getElementById('contact-modal').classList.add('hidden');
+      });
+
+      // Close modal when clicking outside of it
+      window.addEventListener('click', function (e) {
+        if (e.target == document.getElementById('contact-modal')) {
+          document.getElementById('contact-modal').classList.add('hidden');
+        }
+      });A
   </script>
 </html>

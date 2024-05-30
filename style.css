@@ -22,7 +22,7 @@ body {
 /* body{
   background-color: var(--third-color);
 } */
-.contact-container {
+/* .contact-container {
   background-color: #fff;
   padding: 40px;
   border-radius: 8px;
@@ -102,7 +102,7 @@ footer {
 .social-icons img {
   width: 24px;
   height: 24px;
-}
+} */
 
 @media (max-width: 728px) {
   #mobile-menu {
