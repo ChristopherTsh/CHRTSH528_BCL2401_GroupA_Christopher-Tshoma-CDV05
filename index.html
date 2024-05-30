@@ -14,12 +14,13 @@
         <span class="font-semibold text-xl tracking-tight">Logo</span>
       </div>
       <div class="block lg:hidden">
-        <button role="button"
-          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white" id="mobile-menu-toggle"
+        <button
+          role="button"
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          id="mobile-menu-toggle"
         >
-        
           <svg
-            class="fill-current h-3 w-3" 
+            class="fill-current h-3 w-3"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -28,7 +29,10 @@
           </svg>
         </button>
       </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobile-menu">
+      <div
+        class="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+        id="mobile-menu"
+      >
         <div class="text-sm lg:flex-grow">
           <a
             href="#responsive-header"
@@ -52,66 +56,227 @@
       </div>
     </nav>
 
-<!-- Section A-->
+    <!-- Section A-->
 
-    <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
-      <div class="flex flex-col justify-center conl-span-1 text-center lg:text-start">
-        <h1 class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900 ">
-            CHRISTOPHER THAPELO TSHOMA
+    <section
+      class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 px-10 md:gap-5"
+    >
+      <div
+        class="flex flex-col justify-center conl-span-1 text-center lg:text-start"
+      >
+        <h1
+          class="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900"
+        >
+          CHRISTOPHER THAPELO TSHOMA
         </h1>
 
         <p class="mb-6 text-base font-normal leading-7 lg:w-3/4 text-green-900">
-          I am a highly motivated and dedicated individual with a strong passion for software development. I have a 
-      </p>
+          I am a highly motivated and dedicated individual with a strong passion
+          for software development. I have a
+        </p>
       </div>
-      <div class="items-center justify-center hidden col-span-1 md:flex ">
-        <img src="./IMG/IMG_20240524_132742_325.jpg" alt="CHRISTOPHER TSHOMA">
-
-    </div>
-
+      <div class="items-center justify-center hidden col-span-1 md:flex">
+        <img src="./IMG/IMG_20240524_132742_325.jpg" alt="CHRISTOPHER TSHOMA" />
+      </div>
     </section>
 
+    <div class="flex flexi-col tems-center col-span-1 justify-center py-10">
+      <h4 class="text-4xl font-extrabold text-dark-grey-900">Specialties</h4>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20">
+      <!--UI designer-->
+      <div
+        class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300"
+      >
+        <div class="flex flex-col gap-2 text-center px-6">
+          <h4 class="text-2xl font-extrabold text-dark-grey-900">
+            UI Developer
+          </h4>
+          <p class="font-medium text-green-700">
+            A UI (User Interface) developer specializes in designing and
+            developing the visual and interactive components of websites, web
+            applications, and mobile applications
+          </p>
+        </div>
+        <div>
+
+          <button id="revealButtonOne">Read Me</button>
+       </div>
+        <div id="overlay">
+        <div id="card" >
+          <img
+            src="./IMG/Screenshot 2024-05-30 141129.png"
+            alt="do to list"
+            id="cardImage"
+          />
+          <p id="cardDescription">The app is the "to do app" were you can add you to do list for the day , month .it use
+            a firebase with a real time database , where it is updated in real live time.
+            
+            you can cancel the list with one click or delete with double click . it works on any device 
+            connected to the internet. </p>
+            <button id="cancelButton">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      <!--IX Developer-->
+      <div
+        class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300"
+      >
+        <div class="flex flex-col gap-2 text-center px-6">
+          <h4 class="text-2xl font-extrabold text-dark-grey-900">
+            IX Developer
+          </h4>
+          <p class="font-medium text-green-700">
+            The inclusion of JavaScript for scripting enhances the flexibility
+            and power of the software. Users can implement complex logic,
+            customize behaviors, and automate processes with greater ease using
+            this popular scripting language
+          </p>
+        </div>
+
+        <div>
+
+          <button id="revealButtonTwo">Read Me</button>
+          <div id="overlay">
+          <div id="card">
+            <img
+              src="./IMG/Screenshot 2024-05-30 141129.png"
+              alt="do to list"
+              id="cardImage"
+            />
+            <p id="cardDescription">The app is the "to do app" were you can add you to do list for the day , month .it use
+              a firebase with a real time database , where it is updated in real live time.
+              
+              you can cancel the list with one click or delete with double click . it works on any device 
+              connected to the internet. </p>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <!--WEb developer -->
+      <div
+        class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-500 transition duration-300"
+      >
+        <div class="flex flex-col gap-2 text-center px-6">
+          <h4 class="text-2xl font-extrabold text-dark-grey-900">
+            WEb developer
+          </h4>
+          <p class="font-medium text-green-700">
+            As a skilled Web Developer, I bring a strong proficiency in
+            front-end and back-end technologies, including HTML, CSS,
+            JavaScript, and modern frameworks such as React and Node.js. With a
+            keen eye for design and a commitment to user experience, I excel in
+            creating responsive, dynamic websites and applications.
+          </p>
+        </div>
+
+        <div>
+
+          <button id="revealButtonThree">Read Me</button>
+          <div id="overlay">
+          <div id="card">
+            <img
+              src="./IMG/Screenshot 2024-05-30 141129.png"
+              alt="do to list"
+              id="cardImage"
+            />
+            <p id="cardDescription">The app is the "to do app" were you can add you to do list for the day , month .it use
+              a firebase with a real time database , where it is updated in real live time.
+              
+              you can cancel the list with one click or delete with double click . it works on any device 
+              connected to the internet. </p>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
     <!--contact section -->
 
     <div class="contact-container">
       <h1>Contact us</h1>
       <p class="subheading">Subheading for description or instructions</p>
       <form>
-          <div class="input-group">
-              <label for="first-name">First name</label>
-              <input type="text" id="first-name" name="first-name" placeholder="Jane">
-          </div>
-          <div class="input-group">
-              <label for="last-name">Last name</label>
-              <input type="text" id="last-name" name="last-name" placeholder="Smitherton">
-          </div>
-          <div class="input-group">
-              <label for="email">Email address</label>
-              <input type="email" id="email" name="email" placeholder="email@janesfakedomain.net">
-          </div>
-          <div class="input-group">
-              <label for="message">Your message</label>
-              <textarea id="message" name="message" placeholder="Enter your question or message"></textarea>
-          </div>
-          <button type="submit">Submit</button>
+        <div class="input-group">
+          <label for="first-name">First name</label>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="Jane"
+          />
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last name</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Christopher"
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@gmail.com"
+          />
+        </div>
+        <div class="input-group">
+          <label for="message">Your message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your question or message"
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
       </form>
       <footer>
-          <div class="site-name">Site name</div>
-          <div class="social-icons">
-              <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-              <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-              <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
-              <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-          </div>
+        <div class="site-name">Site name</div>
+        <div class="social-icons">
+          <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
+          <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="youtube-icon.png" alt="YouTube" /></a>
+          <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+        </div>
       </footer>
-  </div>
-  
+    </div>
   </body>
   <script>
+    document.getElementById('revealButtonOne',).addEventListener('click', function() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.display = 'flex';
+        });
+
+    document.getElementById('revealButtonTwo',).addEventListener('click', function() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.display = 'flex';
+        });
+
+      document.getElementById('revealButtonThree',).addEventListener('click', function() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.display = 'flex';
+        });
+
+        document.getElementById('cancelButton').addEventListener('click', function() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.display = 'none';
+        });
+
     document
-.getElementById("mobile-menu-toggle")
-.addEventListener("click", function() {
-document.getElementById("mobile-menu").classList.toggle("show");
-} );
+      .getElementById("mobile-menu-toggle")
+      .addEventListener("click", function () {
+        document.getElementById("mobile-menu").classList.toggle("show");
+      });
   </script>
 </html>

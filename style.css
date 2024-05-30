@@ -95,7 +95,58 @@ footer {
 }
 
 img{
-width: 619.6px;
+width: 33%;
+}
+
+#revealButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card img {
+  width: 400px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+#card p {
+  margin: 0 0 20px;
+}
+
+#cancelButton {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
 }
 
 
