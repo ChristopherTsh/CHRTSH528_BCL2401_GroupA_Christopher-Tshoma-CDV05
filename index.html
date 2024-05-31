@@ -331,62 +331,12 @@
  <div class="container flex flex-col mx-auto">
 <div class="flex flex-col items-center w-full my-20">
                 
- <div class="flex flex-col items-center gap-6 mb-8">
- <div class="flex flex-wrap items-center justify-center gap-5 lg:gap-12 gap-y-3 lg:flex-nowrap text-dark-grey-900">
- <div class="flex items-center text-black">
-  <p class="text-base font-normal leading-7 text-center">2024 Christopher. All rights reserved</p>
-                    
-</div>
-   </div>
-  </div>
- </div>
- </div>
-                
-                    
-                               
-                    
-                    
-  </div>
-                    
-  <script>
-    document.getElementById('revealButtonOne',).addEventListener('click', function() {
-            const overlay = document.getElementById('overlay');
-            overlay.style.display = 'flex';
-        });
+ <!--Footer-->
+ <footer class="bg-primary text-white text-center py-4 mt-12">
+  <p class="text-base font-normal leading-7 text-center">2024 Christopher. All rights reserved</p>                
+ </footer> 
 
-    document.getElementById('revealButtonTwo',).addEventListener('click', function() {
-            const overlay = document.getElementById('overlay');
-            overlay.style.display = 'flex';
-        });
-
-      document.getElementById('revealButtonThree',).addEventListener('click', function() {
-            const overlay = document.getElementById('overlay');
-            overlay.style.display = 'flex';
-        });
-
-        document.getElementById('cancelButton').addEventListener('click', function() {
-            const overlay = document.getElementById('overlay');
-            overlay.style.display = 'none';
-        });
-
-        document.addEventListener('DOMContentLoaded', function () {
-          const contactLink = document.getElementById('contact-link');
-          const contactModal = document.getElementById('contact-modal');
-          const closeModalButton = document.getElementById('closeModalButton');
-        
-          contactLink.addEventListener('click', function () {
-            contactModal.classList.remove('hidden');
-          });
-        
-          closeModalButton.addEventListener('click', function () {
-            contactModal.classList.add('hidden');
-          });
-        
-          window.addEventListener('click', function (event) {
-            if (event.target === contactModal) {
-              contactModal.classList.add('hidden');
-            }
-          });
-        });
-  </script>
+  <!-- Scripts -->                
+  <script src="./script.js" </script>
+  </body>
 </html>
