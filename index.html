@@ -41,7 +41,7 @@
             About Me
           </a>
           <a
-            href="#responsive-header"
+            href="javascript:void(0);"
             class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
           >
             Contact Me
@@ -368,25 +368,24 @@
             overlay.style.display = 'none';
         });
 
-    document
-      .getElementById("mobile-menu-toggle")
-      .addEventListener("click", function () {
-        document.getElementById("mobile-menu").classList.toggle("show");
-      });
-
-      document.getElementById('contact-me-button').addEventListener('click', function () {
-        document.getElementById('contact-modal').classList.remove('hidden');
-      });
-
-      document.getElementById('closeModalButton').addEventListener('click', function () {
-        document.getElementById('contact-modal').classList.add('hidden');
-      });
-
-      // Close modal when clicking outside of it
-      window.addEventListener('click', function (e) {
-        if (e.target == document.getElementById('contact-modal')) {
-          document.getElementById('contact-modal').classList.add('hidden');
-        }
-      });A
+        document.addEventListener('DOMContentLoaded', function () {
+          const contactLink = document.getElementById('contact-link');
+          const contactModal = document.getElementById('contact-modal');
+          const closeModalButton = document.getElementById('closeModalButton');
+        
+          contactLink.addEventListener('click', function () {
+            contactModal.classList.remove('hidden');
+          });
+        
+          closeModalButton.addEventListener('click', function () {
+            contactModal.classList.add('hidden');
+          });
+        
+          window.addEventListener('click', function (event) {
+            if (event.target === contactModal) {
+              contactModal.classList.add('hidden');
+            }
+          });
+        });
   </script>
 </html>

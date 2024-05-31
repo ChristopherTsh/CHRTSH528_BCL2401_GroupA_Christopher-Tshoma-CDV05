@@ -19,6 +19,11 @@ body {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+.hidden {
+  display: none;
+} 
+
 /* body{
   background-color: var(--third-color);
 } */
@@ -168,6 +173,46 @@ width: 33%;
   color: #ffffff;
   border: none;
   border-radius: 5px;
+}
+
+/* Custom CSS */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  box-shadow: 0 0 0 2px var(--primary-color);
 }
 
 
