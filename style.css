@@ -38,3 +38,7 @@ body {
 .hover-bg-primary:hover {
   background-color: var(--hover-bg-color);
 }
+
+img{
+  width: 272px; 
+}
